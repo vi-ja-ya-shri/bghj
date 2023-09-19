@@ -1,0 +1,38 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+header {
+    background-color: rgb(95, 136, 172);
+    height: 3rem;
+  }
+  nav {
+    display: flex;
+    justify-content: right;
+  }
+  li {
+    display: inline-block;
+    margin-inline: 1rem;
+  }
+  a:hover {
+    background-color: rgb(32, 84, 117);
+    color: rgb(9, 11, 60);
+    display: contents;
+  }
+  a {
+    font-size: 2rem;
+    color: wheat;
+    text-decoration: none;
+  }
+ article img{
+    width: 100vw;
+    height: 100vh;
+ 
+}
+footer{
+    background-color: rgb(95, 136, 172);
+    height: 3.5rem;
+    position: fixed;
+    bottom: 0%;
+    width: 100vw;
+   }
